@@ -51,7 +51,7 @@ feltolt(C, 'C')
 
 print(f"1. Feladat válasza: {n - sum(A | B | C)}")
 
-print("\n[2. feladat]")
+print("[2. feladat]")
 
 # a=x b=-8 n=10
 
