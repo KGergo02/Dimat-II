@@ -1,3 +1,4 @@
+from math import factorial
 def feltolt(halmaz, neve):
     global aub
     global auc
@@ -40,12 +41,24 @@ A = set()
 B = set()
 C = set()
 
+print("[1. Feladat]")
+
 n = int(input("Add meg a gyanusitottak szamat: "))
 
 feltolt(A, 'A')
 feltolt(B, 'B')
 feltolt(C, 'C')
 
-print(f"\nVálasz: {n - sum(A | B | C)}")
+print(f"1. Feladat válasza: {n - sum(A | B | C)}")
 
+print("\n[2. feladat]")
 
+x = int(input("x egyutthatoja = "))
+
+b = int(input("b (ez a zarojelben a szam) = "))
+
+n = int(input("n (zarojel hatvanya) = "))
+
+k = n - x
+
+print(f"{str(factorial(10) // (factorial(2) * factorial(10 - 2)))}*{'(' + str(b) + ')' if b < 0 else b }^{k}")
