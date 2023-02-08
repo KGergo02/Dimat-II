@@ -53,6 +53,8 @@ print(f"1. Feladat válasza: {n - sum(A | B | C)}")
 
 print("\n[2. feladat]")
 
+# a=x b=-8 n=10
+
 x = int(input("x egyutthatoja = "))
 
 b = int(input("b (ez a zarojelben a szam) = "))
@@ -61,4 +63,4 @@ n = int(input("n (zarojel hatvanya) = "))
 
 k = n - x
 
-print(f"{str(factorial(10) // (factorial(2) * factorial(10 - 2)))}*{'(' + str(b) + ')' if b < 0 else b }^{k}")
+print(f"{str(factorial(n) // (factorial(k) * factorial(n-k)))}*{'(' + str(b) + ')' if b < 0 else b }^{k}")
