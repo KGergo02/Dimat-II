@@ -49,13 +49,13 @@ feltolt(A, 'A')
 feltolt(B, 'B')
 feltolt(C, 'C')
 
-print(f"1. Feladat válasza: {n - sum(A | B | C)}")
+print(f"Válasz: {n - sum(A | B | C)}")
 
 print("[2. feladat]")
 
 # a=x b=-8 n=10
 
-x = int(input("x egyutthatoja = "))
+x = int(input("x hatvanya = "))
 
 b = int(input("b (ez a zarojelben a szam) = "))
 
@@ -63,4 +63,6 @@ n = int(input("n (zarojel hatvanya) = "))
 
 k = n - x
 
-print(f"{str(factorial(n) // (factorial(k) * factorial(n-k)))}*{'(' + str(b) + ')' if b < 0 else b }^{k}")
+#print(f"{str(factorial(n) // (factorial(k) * factorial(n-k)))}*{'(' + str(b) + ')' if b < 0 else b }^{k}")
+
+print(f"Válasz: {factorial(n) // (factorial(k) * factorial(n-k)) * b ** k}")
