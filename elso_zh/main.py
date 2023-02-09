@@ -1,5 +1,5 @@
 from math import factorial
-def feltolt(halmaz, neve):
+"""def feltolt(halmaz, neve):
     global aub
     global auc
     global aubuc
@@ -49,15 +49,15 @@ feltolt(A, 'A')
 feltolt(B, 'B')
 feltolt(C, 'C')
 
-print(f"Válasz: {n - sum(A | B | C)}")
+print(f"Válasz: {n - sum(A | B | C)}")"""
 
 print("[2. feladat]")
 
-x = int(input("x hatvanya = "))
+x = int(input("x kitevoje = "))
 
 b = int(input("b (ez a zarojelben a szam) = "))
 
-n = int(input("n (zarojel hatvanya) = "))
+n = int(input("n (zarojel kitevoje) = "))
 
 k = n - x
 
