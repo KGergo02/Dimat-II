@@ -7,3 +7,5 @@
 #### <p>Binomiális tétel [✔]</p>
 
 </details>
+
+# <hr>
