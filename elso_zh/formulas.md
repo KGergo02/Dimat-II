@@ -33,7 +33,7 @@ Az _x_ a képletünkben a-ként szerepel (semmi változás nincs)
 
 ## Képlet: a<sup>n-k</sup> = a<sup>x</sup> ebből megkapjuk a k-t, ami n - x
 
-### Ha ez megvan, akkor az utolsó képletbe be kell helyettesíteni az értékeket:
+### Ha ez megvan, akkor az utolsó képletbe kell behelyettesíteni az értékeket:
 
 ## Binomiális tétel: n! / (k! * (n-k)! ) * b<sup>k</sup>
 
